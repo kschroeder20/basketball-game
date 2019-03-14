@@ -1,0 +1,59 @@
+.container-fluid{
+    width:100%;
+    padding:0px;
+}
+html,
+body{
+    background: url('../images/debut_dark_@2X.png');
+}
+#goal-number{
+    margin-left:65%;
+    font-size: 200px;
+    color: white;
+    text-shadow: 5px 5px black;
+    transform: translateY(-100%);
+}
+
+#goal-number-div{
+    margin: 0 0 10px 0;
+    padding: 0px;
+    height: 500px;
+    background-color:#040509;
+    
+}
+
+#goal-number-div img{
+    height: 500px;
+    width: auto;
+}
+
+.basketball-images{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+.basketball-images div{
+    padding: 0px;
+}
+
+.player-images{
+        height: auto;
+        width: auto;
+}
+
+#start-game-button-div{
+    margin: 10px 0 0 0;
+
+}
+
+#start-game-button-div div{
+    margin: 0;
+    padding: 20px 0 20px 0;
+
+}
+button{
+    margin-left:40%;
+    
+    
+}
