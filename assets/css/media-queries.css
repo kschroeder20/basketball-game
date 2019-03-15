@@ -1,51 +1,38 @@
 @media (max-width: 992px) {
-    .player-images{
-        width: 95%;
-        
-    }
-
+  .player-images {
+    width: 95%;
   }
+}
 @media (max-width: 768px) {
-    .player-images{
-        height: 300px;
-        margin-bottom: 10px;
-    }
-    #goal-number{
-    margin-left:40%;
-    font-size: 200px;
-    color: white;
-    text-shadow: 5px 5px black;
-    transform: translateY(-100%);
+  .player-images {
+    height: 300px;
+    margin-bottom: 10px;
+  }
+  #goal-number {
+    margin-left: 40%;
+  }
 }
-}
-
-
-
 
 @media (max-width: 576px) {
-    html,
-    body{
-        background: url('../images/debut_dark_@2X.png');
-    }
-    .player-images{
-        width: auto;
-        height: auto;
-    }
-    #goal-number-div img{
-        display: none;
-     }
-     #goal-number{
-    margin-left:50%;
+  html,
+  body {
+    background: url("../images/debut_dark_@2X.png");
+  }
+  .player-images {
+    width: auto;
+    height: auto;
+  }
+  #goal-number-div img {
+    display: none;
+  }
+  #goal-number {
+    margin-left: 50%;
     font-size: 200px;
     color: white;
-    text-shadow:2px 2px black;
+    text-shadow: 2px 2px black;
     transform: translateY(100%);
+  }
 }
-
-}
-
-
-
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
